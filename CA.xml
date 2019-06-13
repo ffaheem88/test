@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Data>
+<State><Id>1</Id><scale>50</scale><scope>10</scope><cell1>-1</cell1><cell2>-1</cell2><cell3>-1</cell3><cell4>-1</cell4><cell5>-16777216</cell5><cell6>-16777216</cell6><cell7>-16777216</cell7><cell8>-1</cell8><ci>11111111111111111111111110111111111111111111111111</ci><notes> Simple Lines </notes></State><State><Id>2</Id><scale>50</scale><scope>10</scope><cell1>-1</cell1><cell2>-1</cell2><cell3>-16777216</cell3><cell4>-1</cell4><cell5>-1</cell5><cell6>-16777216</cell6><cell7>-16777216</cell7><cell8>-1</cell8><ci>11111011011111111110111111111011111101110111111011</ci><notes> Simple Lines </notes></State></Data>
+
