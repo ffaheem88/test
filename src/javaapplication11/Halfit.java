@@ -16,7 +16,7 @@ import java.io.IOException;
  *
  * @author Faisal
  */
-public class UpdateCSV {
+public class Halfit {
     public static void main(String[] args) {
         
         CSVReader reader = null;
@@ -29,7 +29,7 @@ public class UpdateCSV {
      String [] nextLine;
      String[] newline = new String[10];
         try {
-         CSVWriter writer = new CSVWriter(new FileWriter("C:\\Users\\ffahe\\Desktop\\NewBin26.csv"));
+         CSVWriter writer = new CSVWriter(new FileWriter("C:\\Users\\ffahe\\Desktop\\NewBin2.csv"));
             while ((nextLine = reader.readNext()) != null) {
                // nextLine[] is an array of values from the line
                System.out.println(nextLine[7]);
@@ -37,10 +37,9 @@ public class UpdateCSV {
                String result="";
             String[] vals = nextLine[7].trim().split(",");
             String update = "";
-    for(int i = 0; i < 100; i++){
-                update = update + vals[i] +",";
+    for(int i = 0; i < 99; i++){
+        update = update + vals[i] +",";
                int x =  Integer.parseInt(vals[i]);
-               
                if(x>900){
                    result=result+"1";
                }else{
